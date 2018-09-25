@@ -1,0 +1,441 @@
+// Color Pallete
+colorBg:			#020C0D;
+colorFg:			#C1B7B7;
+
+colorBlack:			#093439;
+colorRed:			#CC6666;
+colorGreen:			#62C67C;
+colorYellow:		#EDBC77;
+colorBlue:			#4F809E;
+colorPurple:		#85678F;
+colorCyan:			#448787;
+colorWhite:			colorFg;
+
+// Color Variants
+colorTransparent:	#00000000;
+colorBlackDarker:	#05181B;
+
+windowBg:					colorBg;
+windowFg:					colorFg;
+windowBgOver:				colorBlackDarker;
+windowBgRipple:				colorBlack;
+windowFgOver:				colorFg;
+windowSubTextFg:			colorFg;
+windowSubTextFgOver:		colorFg;
+windowBoldFg:				colorFg;
+windowBoldFgOver:			colorFg;
+windowBgActive:				colorBlackDarker;
+windowFgActive:				colorFg;
+windowActiveTextFg:			colorFg;
+windowShadowFg:				colorTransparent;
+windowShadowFgFallback:		colorTransparent;
+
+shadowFg:	colorTransparent;
+
+slideFadeOutBg:			windowBg;
+slideFadeOutShadowFg:	colorTransparent;
+
+imageBg:				colorBlack;
+imageBgTransparent:		colorWhite;
+
+activeButtonBg: colorGreen;
+activeButtonBgOver: colorPurple; 
+activeButtonBgRipple: colorBg;
+activeButtonFg: windowBg;
+activeButtonFgOver: activeButtonFg;
+activeButtonSecondaryFg: colorFg;
+activeButtonSecondaryFgOver: activeButtonSecondaryFg;
+activeLineFg: windowActiveTextFg;
+activeLineFgError: colorRed;
+
+lightButtonBg: windowBg;
+lightButtonBgOver: colorCyan;
+lightButtonBgRipple: colorBg;
+lightButtonFg: colorGreen;
+lightButtonFgOver: activeButtonBgOver;
+
+attentionButtonFg: colorRed;
+attentionButtonFgOver: colorRed;
+attentionButtonBgOver: colorBg;
+attentionButtonBgRipple: colorBg;
+
+outlineButtonBg: colorBh;
+outlineButtonBgOver: colorCyan;
+outlineButtonOutlineFg: colorFg;
+outlineButtonBgRipple: colorBg; 
+
+menuBg: colorBg;
+menuBgOver: colorBlackDarker;
+menuBgRipple: colorBlack;
+menuIconFg: colorCyan;
+menuIconFgOver: colorCyan;
+menuSubmenuArrowFg: colorGreen;
+menuFgDisabled: colorCyan;
+menuSeparatorFg: colorFg;
+
+scrollBarBg: colorBlue;
+scrollBarBgOver: colorBlue;
+scrollBg: colorBlackDarker;
+scrollBgOver: colorBlackDarker;
+
+smallCloseIconFg: colorCyan;
+smallCloseIconFgOver: colorRed;
+
+radialFg: colorFg;
+radialBg: colorCyan;
+
+placeholderFg: colorCyan;
+placeholderFgActive: ColorBlue;
+
+inputBorderFg: colorCyan;
+
+filterInputBorderFg: colorCyan;
+
+checkboxFg: colorCyan;
+
+sliderBgInactive: colorCyan;
+sliderBgActive: colorCyan;
+
+tooltipBg: colorBg;
+tooltipFg: colorFg;
+tooltipBorderFg: colorTransparent;
+
+titleBg: colorBg;
+titleShadow: colorTransparent;
+titleButtonFg: colorCyan;
+titleButtonBgOver: colorTransparent;
+titleButtonFgOver: colorYellow;
+titleButtonCloseBgOver: colorTransparent;
+titleButtonCloseFgOver: colorRed;
+titleFgActive: colorFg;
+titleFg: colorFg;
+
+trayCounterBg: colorRed;
+trayCounterBgMute: colorBg;
+trayCounterFg: colorFg;
+trayCounterBgMacInvert: colorGreen;
+trayCounterFgMacInvert: colorFg;
+
+layerBg: colorTransparent;
+
+cancelIconFg: colorCyan;
+cancelIconFgOver: colorRed;
+
+boxBg: colorBg;
+boxTextFg: colorFg;
+boxTextFgGood: colorGreen;
+boxTextFgError: colorRed;
+boxTitleFg: colorFg;
+boxSearchBg: colorBg;
+boxSearchCancelIconFg: colorRed;
+boxSearchCancelIconFgOver: colorReb;
+boxTitleAdditionalFg: colorYellow;
+boxTitleCloseFg: colorFg;
+boxTitleCloseFgOver: colorFg;
+
+membersAboutLimitFg: colorRed;
+
+contactsBg: windowBg;
+contactsBgOver: windowBgOver;
+contactsNameFg: colorYellow;
+contactsStatusFg: windowSubTextFg;
+contactsStatusFgOver: windowSubTextFgOver;
+contactsStatusFgOnline: windowActiveTextFg;
+
+photoCropFadeBg: layerBg;
+photoCropPointFg: colorGreen;
+
+introBg: windowBg;
+introTitleFg: windowBoldFg;
+introDescriptionFg: windowSubTextFg;
+introErrorFg: colorRed;
+introCoverTocolorBg: colorBg;
+introCoverBottomBg: colorBg;
+introCoverIconsFg: colorGreen;
+introCoverPlaneTrace: colorCyan;
+introCoverPlaneInner: colorCyan;
+introCoverPlaneOuter: colorCyan;
+introCoverPlaneTop: colorCyan;
+
+dialogsMenuIconFg: menuIconFg;
+dialogsMenuIconFgOver: menuIconFgOver;
+dialogsBg: windowBg;
+dialogsNameFg: windowBoldFg;
+dialogsChatIconFg: colorYellow;
+dialogsDateFg: windowSubTextFg;
+dialogsTextFg: windowSubTextFg;
+dialogsTextFgService: windowActiveTextFg;
+dialogsDraftFg: colorRed;
+dialogsVerifiedIconBg: colorCyan;
+dialogsVerifiedIconFg: colorBg;
+dialogsSendingIconFg: colorYellow;
+dialogsSentIconFg: colorGreen;
+dialogsUnreadBg: colorGreen;
+dialogsUnreadBgMuted: colorCyan;
+dialogsUnreadFg: colorFg;
+dialogsBgOver: windowBgOver;
+dialogsNameFgOver: windowBoldFgOver;
+dialogsChatIconFgOver: dialogsChatIconFg;
+dialogsDateFgOver: windowSubTextFgOver;
+dialogsTextFgOver: windowSubTextFgOver;
+dialogsTextFgServiceOver: dialogsTextFgService;
+dialogsDraftFgOver: dialogsDraftFg;
+dialogsVerifiedIconBgOver: dialogsVerifiedIconBg;
+dialogsVerifiedIconFgOver: dialogsVerifiedIconFg;
+dialogsSendingIconFgOver: dialogsSendingIconFg;
+dialogsSentIconFgOver: dialogsSentIconFg;
+dialogsUnreadBgOver: dialogsUnreadBg;
+dialogsUnreadBgMutedOver: dialogsUnreadBgMuted;
+dialogsUnreadFgOver: dialogsUnreadFg;
+dialogsBgActive: colorCyan;
+dialogsNameFgActive: colorPurple;
+dialogsChatIconFgActive: colorPurple;
+dialogsDateFgActive: windowActiveTextFg;
+dialogsTextFgActive: windowActiveTextFg;
+dialogsTextFgServiceActive: colorYellow;
+dialogsDraftFgActive: dialogsDraftFg;
+dialogsVerifiedIconBgActive: dialogsVerifiedIconBg;
+dialogsVerifiedIconFgActive: dialogsVerifiedIconFg;
+dialogsSendingIconFgActive: dialogsSendingIconFg;
+dialogsSentIconFgActive: dialogsSentIconFg;
+dialogsUnreadBgActive: dialogsUnreadBg;
+dialogsUnreadBgMutedActive: dialogsUnreadBgMuted;
+dialogsUnreadFgActive: dialogsUnreadFg;
+dialogsForwardBg: dialogsBgActive;
+dialogsForwardFg: colorCyan;
+
+searchedBarBg: colorBg;
+searchedBarBorder: colorTransparent;
+searchedBarFg: colorFg;
+
+topBarBg: colorBg;
+
+emojiPanBg: colorBg;
+emojiPanCategories: colorBg;
+emojiPanHeaderFg: colorFg;
+emojiPanHeaderBg: colorBg;
+
+stickerPanDeleteBg: colorBg;
+stickerPanDeleteFg: colorRed;
+stickerPreviewBg: colorTransparent;
+
+historyTextInFg: windowFg;
+historyTextOutFg: windowFg;
+historyCaptionInFg: historyTextInFg;
+historyCaptionOutFg: historyTextOutFg;
+historyFileNameInFg: historyTextInFg;
+historyFileNameOutFg: historyTextOutFg;
+historyOutIconFg: colorGreen;
+historyOutIconFgSelected: colorGreen;
+historyIconFgInverted: colorGreen;
+historySendingOutIconFg: colorYellow;
+historySendingInIconFg: colorYellow;
+historySendingInvertedIconFg: colorYellow;
+historySystemBg: colorYellow;
+historySystemBgSelected: colorYellow;
+historySystemFg: colorBg;
+historyUnreadBarBg: colorCyan;
+historyUnreadBarBorder: colorCyan;
+historyUnreadBarFg: colorWhite;
+historyForwardChooseBg: colorGreen;
+historyForwardChooseFg: colorWhite;
+historyPeer1NameFg: colorRed;
+historyPeer1UserpicBg: colorRed;
+historyPeer2NameFg: colorGreen;
+historyPeer2UserpicBg: colorGreen;
+historyPeer3NameFg: colorYellow;
+historyPeer3UserpicBg: colorYellow;
+historyPeer4NameFg: colorCyan;
+historyPeer4UserpicBg: colorCyan;
+historyPeer5NameFg: colorPurple;
+historyPeer5UserpicBg: colorPurple;
+historyPeer6NameFg: colorPurple;
+historyPeer6UserpicBg: colorPurple;
+historyPeer7NameFg: colorGreen;
+historyPeer7UserpicBg: colorGreen;
+historyPeer8NameFg: colorYellow;
+historyPeer8UserpicBg: colorYellow;
+historyPeerUserpicFg: colorBg;
+historyScrollBarBg: scrollBarBg;
+historyScrollBarBgOver: scrollBarBgOver;
+historyScrollBg: scrollBg;
+historyScrollBgOver: scrollBgOver;
+
+msgInBg:						colorBlackDarker;
+msgInBgSelected:				colorBlue;
+msgOutBg:						colorBlack;
+msgOutBgSelected:				colorBlue;
+msgSelectOverlay:				colorBlue;
+msgStickerOverlay:				colorBlue;
+msgInServiceFg:					colorFg;
+msgInServiceFgSelected:			colorFg;
+msgOutServiceFg:				colorFg;
+msgOutServiceFgSelected:		colorFg;
+msgInShadow:					colorTransparent;
+msgInShadowSelected:			colorTransparent;
+msgOutShadow:					colorTransparent;
+msgOutShadowSelected:			colorTransparent;
+msgInDateFg:					colorFg;
+msgInDateFgSelected:			colorFg;
+msgOutDateFg:					colorFg;
+msgOutDateFgSelected: 			colorFg;
+msgServiceFg:					colorFg;
+msgServiceBg:					colorBg;
+msgServiceBgSelected:			colorBg;
+msgInReplyBarColor:				activeLineFg;
+msgInReplyBarSelColor:			activeLineFg;
+msgOutReplyBarColor:			activeLineFg;
+msgOutReplyBarSelColor:			activeLineFg;
+msgImgReplyBarColor:			activeLineFg;
+msgInMonoFg:					colorYellow;
+msgOutMonoFg:					colorYellow;
+msgDateImgFg:					colorFg;
+msgDateImgBg:					colorBg;
+msgDateImgBgOver:				colorBg;
+msgDateImgBgSelected:			colorBg;
+msgFileThumbLinkInFg:			colorYellow;
+msgFileThumbLinkInFgSelected:	colorGreen;
+msgFileThumbLinkOutFg:			colorYellow;
+msgFileThumbLinkOutFgSelected:	colorGreen;
+msgFileInBg:					colorPurple;
+msgFileInBgOver:				colorFg;
+msgFileInBgSelected:			colorGreen;
+msgFileOutBg:					colorBg;
+msgFileOutBgOver:				colorFg;
+msgFileOutBgSelected:			colorCyan;
+msgFile1Bg:						colorCyan;
+msgFile1BgDark:					colorBg;
+msgFile1BgOver:					colorBg;
+msgFile1BgSelected:				colorBg;
+msgFile2Bg:						colorGreen;
+msgFile2BgDark:					colorBg;
+msgFile2BgOver:					colorBg;
+msgFile2BgSelected:				colorBg;
+msgFile3Bg:						colorRed;
+msgFile3BgDark:					colorBg;
+msgFile3BgOver:					colorBg;
+msgFile3BgSelected:				colorBg;
+msgFile4Bg:						colorYellow;
+msgFile4BgDark:					colorBg;
+msgFile4BgOver:					colorBg;
+msgFile4BgSelected:				colorBg;
+msgWaveformInActive:			colorGreen;
+msgWaveformInActiveSelected:	colorGreen;
+msgWaveformInInactive:			windowBg;
+msgWaveformInInactiveSelected:	windowBg;
+msgWaveformOutActive:			colorGreen;
+msgWaveformOutActiveSelected:	colorGreen;
+msgWaveformOutInactive:			windowBg;
+msgWaveformOutInactiveSelected:	windowBg;
+msgBotKbOverBgAdd:				colorBg;
+msgBotKbIconFg:					colorBg;
+msgBotKbRippleBg:				colorBg;
+
+mediaInFg: colorYellow;
+mediaInFgSelected: colorYellow;
+mediaOutFg: colorYellow;
+mediaOutFgSelected: colorYellow;
+
+youtubePlayIconBg: colorRed;
+youtubePlayIconFg: colorFg;
+
+videoPlayIconBg: colorGreen;
+videoPlayIconFg: colorFg;
+
+toastBg: colorGreen;
+toastFg: colorWhite;
+
+reportSpamBg: emojiPanHeaderBg;
+reportSpamFg: windowFg;
+
+historyToDownShadow: colorTransparent;
+historyComposeAreaBg: windowBg;
+historyComposeAreaFg: historyTextInFg;
+historyComposeAreaFgService: colorFg;
+historyComposeIconFg: menuIconFg;
+historyComposeIconFgOver: menuIconFgOver;
+historySendIconFg: menuIconFg;
+historySendIconFgOver: colorGreen;
+historyPinnedBg: windowBg;
+historyReplyBg: historyComposeAreaBg;
+historyReplyCancelFg: cancelIconFg;
+historyReplyCancelFgOver: colorRed;
+historyComposeButtonBg: historyComposeAreaBg;
+historyComposeButtonBgOver: windowBgOver;
+historyComposeButtonBgRipple: windowBgRipple;
+
+overviewCheckBg: colorTransparent;
+overviewCheckFg: windowBg;
+overviewCheckFgActive: windowBg;
+overviewPhotoSelectOverlay: colorBg;
+
+profileStatusFgOver: colorPurple;
+
+notificationsBoxMonitorFg: windowFg;
+notificationsBoxScreenBg: colorCyan;
+notificationSampleUserpicFg:  colorCyan;
+notificationSampleCloseFg: colorRed;
+notificationSampleTextFg: colorFg;
+notificationSampleNameFg: colorYellow;
+
+mainMenuBg: windowBg;
+mainMenuCoverBg: colorCyan;
+mainMenuCoverFg:  colorGreen;
+
+mediaPlayerBg:  colorBg;
+mediaPlayerActiveFg: colorGreen;
+mediaPlayerInactiveFg: colorGreen;
+mediaPlayerDisabledFg: colorCyan;
+
+mediaviewFileBg: colorCyan;
+mediaviewFileNameFg: windowFg;
+mediaviewFileSizeFg: colorYellow;
+mediaviewFileRedCornerFg: colorFg;
+mediaviewFileYellowCornerFg: colorFg;
+mediaviewFileGreenCornerFg: colorFg;
+mediaviewFileBlueCornerFg: colorFg;
+mediaviewFileExtFg: colorBg;
+mediaviewMenuBg: colorTransparent;
+mediaviewMenuBgOver: colorCyan;
+mediaviewMenuBgRipple: colorBg;
+mediaviewMenuFg: colorFg;
+mediaviewBg: colorBg;
+mediaviewVideoBg: imageBg;
+mediaviewControlBg: colorBg;
+mediaviewControlFg: colorGreen;
+mediaviewCaptionBg: colorBg;
+mediaviewCaptionFg: colorWhite;
+mediaviewTextLinkFg: colorCyan;
+mediaviewSaveMsgBg: toastBg;
+mediaviewSaveMsgFg: toastFg;
+mediaviewPlaybackActive: colorGreen;
+mediaviewPlaybackInactive: colorCyan;
+mediaviewPlaybackActiveOver: colorGreen;
+mediaviewPlaybackInactiveOver: colorGreen;
+mediaviewPlaybackProgressFg: colorFg;
+mediaviewPlaybackIconFg: colorGreen;
+mediaviewPlaybackIconFgOver: mediaviewPlaybackActiveOver;
+mediaviewTransparentBg: colorBlack;
+mediaviewTransparentFg: colorFg;
+
+notificationBg: colorFg;
+
+titleButtonBg: colorTransparent;
+titleButtonBgActive: colorTransparent;
+titleButtonBgActiveOver: colorCyan;
+titleButtonFgActiveOver: colorYellow;
+titleButtonFgActive: colorYellow;
+titleButtonCloseBg: colorTransparent;
+titleButtonCloseFg: colorCyan;
+titleButtonCloseBgActive: colorTransparent;
+titleButtonCloseFgActive: colorRed;
+titleButtonCloseBgActiveOver: colorCyan;
+titleButtonCloseFgActiveOver: titleButtonCloseFgOver;
+filterInputInactiveBg: colorFg;
+
+profileVerifiedCheckBg: colorCyan;
+
+historyReplyIconFg: colorFg;
+historyToDownBg: colorBg;
+
+titleBgActive: colorBg;
